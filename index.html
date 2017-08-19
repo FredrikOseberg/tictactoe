@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave" rel="stylesheet">
+</head>
+<body>
+	<div class="viewport">
+		<div  class="modal flex opacity">
+			<div class="modal-content">
+				<h1>Welcome to TicTacToe</h1>
+				<div class="modal-wrapper">
+					<h3>Choose your symbol</h3>
+					<div class="symbols">
+						<div class="player-symbol active">X</div>
+						<div class="player-symbol inactive">O</div>
+					</div>
+					
+					<div class="start-button">Start Game</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="turns">
+			<h2 class="turn"></h2>
+		</div>
+
+		<div class="board">
+			<div class="tile-group-one">
+				<div class="tile" data-row="0" data-target="0"></div>
+				<div class="tile" data-row="0" data-target="1"></div>
+				<div class="tile" data-row="0" data-target="2"></div>
+			</div>
+			<div class="tile-group-two">
+				<div class="tile" data-row="1" data-target="0"></div>
+				<div class="tile" data-row="1" data-target="1"></div>
+				<div class="tile" data-row="1" data-target="2"></div>
+			</div>
+			<div class="tile-group-three">
+				<div class="tile" data-row="2" data-target="0"></div>
+				<div class="tile" data-row="2" data-target="1"></div>
+				<div class="tile" data-row="2" data-target="2"></div>
+			</div>
+		</div>
+	</div>
+
+	<script src="bundle.js"></script>
+</body>
+</html>
